@@ -1,0 +1,275 @@
+*{
+    box-sizing: border-box; 
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{ font-style:initial; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    
+}
+
+h1{font-size: 5.7em;}
+h2{
+    align-items: center;
+    font-size: 2.8em;}
+h3{
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;}
+p{font-size:1.30em ;}
+
+button{
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 15px; border: 2px solid; color: rgb(27, 80, 158);
+    box-shadow: 2px 2px 10px rgba(11, 21, 71, 0.904) ;
+    color: rgb(241, 250, 255); background-color: rgb(33, 129, 194); 
+}
+
+#CENTRO{
+     margin: auto;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     font-size: 3.5em;
+}
+   
+#iframe{
+   padding:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover{
+    background-color:rgb(17, 17, 73) ; 
+
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{color:navy;
+}
+
+
+header{
+    background-color: rgb(241, 227, 208);
+}
+.color-acento{ color:rgb(32, 38, 114); }
+header{ background-color: rgb(0, 0, 0);
+
+}
+header .logo{
+    font-family:monospace;
+    margin:0;
+    padding: 25px,30px;
+    font: size 1.6em;
+    font-weight: bold ;
+    color:rgb(46, 127, 231);
+    background-color: black;
+
+}
+header .container{
+    
+   display: flex;
+   align-items: center;
+}
+
+header nav{ 
+    display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 25px;
+ 
+    
+}
+
+header a:hover{
+    color: rgb(21, 86, 139);
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#hero2{
+
+}
+
+#hero2{align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    color:white; 
+    background-image:linear-gradient(
+        0deg,rgba(0, 0, 0, 0.247),rgba(0,0,0,0.5)
+    )
+     ,url("FONDOSECCIONAVATAR2.jpg"); background-repeat: no-repeat; background-size:cover ; background-position: center center;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    color:white; 
+    background-image:linear-gradient(
+        0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)
+    )
+     ,url("herofondo.jpg"); background-repeat: no-repeat; background-size:cover ; background-position: center center;
+
+}
+
+#Avatar2009{ 
+
+}
+
+#Avatar2009 .container{
+    text-align: center;
+    padding: 200px 12px;
+    
+}
+
+#Avatar2022 .container{
+     text-align: center;
+    padding: 200px 12px;
+}
+
+
+#Personajes-Favoritos{
+    color:rgb(255, 255, 255);
+    background-color: rgba(5, 17, 78, 0.671) ;
+    text-align: center;
+}
+#Personajes-Favoritos .container{
+    padding: 150px;
+  
+}
+#Personajes-Favoritos p{
+    display: none;
+
+}
+
+#Personajes-Favoritos h2{
+    margin: top 0; 
+    text-align: center;
+}
+
+
+#personajes-favoritos .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+    padding: 50px;
+    margin: 12px;
+    align-items: center;
+    color: aliceblue;
+}
+
+ 
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("jake.jpg") 
+
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),url("neytiri.jpg"); ;
+
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),url("grace.jpg");
+    
+
+}
+
+#footer{
+
+}
+
+footer{
+    text-align: left;
+   display: flow-root;
+    flex-direction: column;
+    p{
+        color: aliceblue;
+    }
+    
+    background-color:rgb(10, 76, 107); 
+}
+
+
+nav{
+    max-width: 900px; 
+    margin:auto;
+    background-color: #333;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-horizontal > li:hover{
+    background-color: rgb(19, 61, 138);
+}
+
+.menu-vertical{
+    position: absolute;
+    display:none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(16, 31, 44, 0.623); }
+
+.menu-horizontal  li:hover .menu-vertical{
+    display:block;
+}
+.menu-vertical li:hover{
+    background-color: rgb(16, 12, 68);
+}
+.menu-vertical li a{
+    display: block;
+    color:white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
