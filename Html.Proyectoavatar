@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <title>Primer Diseño</title>
+    <link rel="stylesheet" href="index.css"> 
+</head>
+<body>
+   
+    <header>
+        <div class="container">
+            
+            <p class="logo">Oriana Pantoja!</p>
+            <img src="toruk house (2).png" >
+    </header>
+<nav>
+        <ul class="menu-horizontal">
+            <li><a hrerf="#">Inicio</a></li>
+            <li>
+                <a href="#">Personajes</a>
+                <ul class="menu-vertical">
+                    <li><a href="#">Jake Sully</a></li>
+                    <li><a href="#">Neytiri</a></li>
+                    <li><a href="#">Dr. Grace Agustine</a></li>
+                </ul>
+            </li>
+          
+            <li>
+                <a hrerf="#">Contacto</a>
+                <ul class="menu-vertical">
+                     <li><a href="#">Instagram</a></li>
+                     <li><a href="#">Correo</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </nav> 
+
+<!--  -->
+    <section id="hero">
+        <h1>Avatar</h1>
+        <form action="https://www.disneyplus.com/es-419/browse/entity-357d8505-b9bc-41e3-9f27-0414738df143" 
+        >
+            <button> Mirar!</button></form>
+    </section>
+  <br>
+ <section id="iframe">
+    <iframe src="https://www.youtube.com/embed/5PSNL1qE6VY" height="700" width="2300">
+        
+    </iframe>
+ </section>
+    
+
+    <section id="Avatar2009">
+        <div class="container">  
+            <div id="img.container"></div>
+                <div class ="texto">
+                    <h2><spa class="color-acento">Avatar</spa> 2009💙</h2> 
+                        <p>El exmarine Jake Sully es enviado a la luna Pandora para participar en el programa Avatar, un experimento que le permite controlar un cuerpo alienígena de forma remota. 
+                            En Pandora, Jake se ve envuelto en una guerra de recursos entre humanos y los nativos Na'vi, los cuales son un pueblo de seres alienígenas azules que viven en armonía con la naturaleza. 
+                            Jake se enamora de Neytiri, una Na'vi, y termina luchando por proteger a su nuevo hogar y a su gente.
+                        </p>
+                </div>       
+            </div>
+    </section>
+
+    <section id="personajes-favoritos">
+        <div class="container">
+            <h2>Personajes Favoritos</h2>
+            <div class="Programas">
+                <div class="carta">
+                    <h3>Jake Sully</h3>
+                    <p>Él es un veterano de la Marina que quedó parapléjico, que después forma un vínculo con la raza Na'vi y que también es uno de los 20 conductores avatar conocidos. Es el sexto Toruk Makto y Olo'eyktan del Clan Omaticaya</p>
+        <form action="https://james-camerons-avatar.fandom.com/es/wiki/Jake_Sully">
+            <button>Biografia</button>
+        </form>
+        <br>
+                </div>
+                <div class="carta">
+                    <h3>Neytiri</h3>
+                    <p>Es una Na'vi guerrera, princesa del clan Omaticaya, y se convierte en la pareja y Tsahik (líder) de Jake Sully, un humano que se une a su pueblo. 
+                    </p><form action="https://youtu.be/ZMDegl6X3mE?si=tBeXs2hMibk_BRTj">
+                        <button>Familia</button>
+                    </form>
+                </div>
+             
+                <div class="carta">
+                    <h3>Dr. Grace Agustine</h3>
+                    <p> La Dr. Grace Augustine es una xenobotánica y jefa del Programa Avatar. Ella es una leyenda para el personal científico ya que escribió un libro de botánica de Pandora. Ayudó a Jake Sully en el programa, hasta que murió por una herida de bala infligida por el coronel Quaritch.
+                    </p><form action="https://youtu.be/czd8pbHnjpc?si=xlfKubY1DLeYrSTg">
+                        <button>Otros</button>
+                    </form>
+                </div>  
+
+            </div>
+        </div>
+    </section>
+<br>
+     <section id="Avatar2022">
+        <div class="container">  
+            <div id="img.container"></div>
+                <div class ="texto">
+                    <h1><spa class="color-acento">Avatar</spa> 2022</h1> 
+                        <p>se vienen cositas
+                        </p>
+                </div>       
+            </div>
+    </section>
+<br>
+    <section id="Proximamente"> <section id="hero2">
+        <div class="container">
+            <h2>
+             El camino del agua </h2>
+           
+        <form action="https://www.disneyplus.com/es-419/browse/entity-e6ef640e-787e-4477-aba4-9e05925ebac2">
+           
+            <br><button id="CENTRO"> Ver!</button>
+        </form>
+        </div>
+
+    </section>
+    
+    <section id="iframe"> <br>
+       
+       
+     </section>
+        
+    </form>
+    <section id="iframe">
+        <br>
+        <iframe src="https://www.youtube.com/embed/wWkPlwNimS4" height="700" width="2300">
+                
+        </iframe>
+    </section>
+
+        
+    <br>
+    <br>
+   
+
+        <footer>
+            <div class="container"> 
+                <p>Pagina de experimentación 
+                    <br>
+                    correo: oriana14208@gmail.com <br> </p>
+                    <p>&copy;@TorukHouse2025</p>
+            </div>
+        </footer>
+</body>
+</html>
