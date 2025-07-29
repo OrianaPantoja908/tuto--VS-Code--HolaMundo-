@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>    
+<head> 
+      
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet"> 
+
+
     <title>Primer Diseño</title>
     <link rel="stylesheet" href="index.css"> 
 </head>
@@ -12,35 +18,37 @@
             <p class="logo">Oriana Pantoja!</p>
             <img src="toruk house (2).png" >
     </header>
-<nav>
+<nav> 
         <ul class="menu-horizontal">
             <li><a hrerf="#">Inicio</a></li>
             <li>
                 <a href="#">Personajes</a>
                 <ul class="menu-vertical">
-                    <li><a href="#">Jake Sully</a></li>
-                    <li><a href="#">Neytiri</a></li>
-                    <li><a href="#">Dr. Grace Agustine</a></li>
+                    <li><a href="#Jake sully">Jake Sully</a></li>
+                    <li><a href="#Neytiri">Neytiri</a></li>
+                    <li><a href="#dr.Grace">Dr. Grace Agustine</a></li>
                 </ul>
             </li>
           
             <li>
                 <a hrerf="#">Contacto</a>
                 <ul class="menu-vertical">
-                     <li><a href="#">Instagram</a></li>
+                     <li><a href="https://www.instagram.com/chanekvdk/">Instagram</a></li>
                      <li><a href="#">Correo</a></li>
                 </ul>
             </li>
-
+               
         </ul>
     </nav> 
-
-<!--  -->
+<br>
+<!-- Corregir el fondo y disposición del menu :) 
+ Buscar como hacer una animación para decorar. ¿Quiero agregar un formulario? 
+ Sistema de cartas inspirado en pokemon pero de los personajes y criaturas de Avatar == Revisar tablón de pinterest :) -->
     <section id="hero">
         <h1>Avatar</h1>
         <form action="https://www.disneyplus.com/es-419/browse/entity-357d8505-b9bc-41e3-9f27-0414738df143" 
         >
-            <button> Mirar!</button></form>
+            <button> Mirar</button></form>
     </section>
   <br>
  <section id="iframe">
@@ -54,8 +62,10 @@
         <div class="container">  
             <div id="img.container"></div>
                 <div class ="texto">
-                    <h2><spa class="color-acento">Avatar</spa> 2009💙</h2> 
-                        <p>El exmarine Jake Sully es enviado a la luna Pandora para participar en el programa Avatar, un experimento que le permite controlar un cuerpo alienígena de forma remota. 
+                    <h2 style="font-size: 5.2em;"><spa  class="color-acento">Avatar</spa> 2009💙</h2> 
+
+       
+                        <p id="sintesis" >El exmarine Jake Sully es enviado a la luna Pandora para participar en el programa Avatar, un experimento que le permite controlar un cuerpo alienígena de forma remota. 
                             En Pandora, Jake se ve envuelto en una guerra de recursos entre humanos y los nativos Na'vi, los cuales son un pueblo de seres alienígenas azules que viven en armonía con la naturaleza. 
                             Jake se enamora de Neytiri, una Na'vi, y termina luchando por proteger a su nuevo hogar y a su gente.
                         </p>
@@ -65,27 +75,27 @@
 
     <section id="personajes-favoritos">
         <div class="container">
-            <h2>Personajes Favoritos</h2>
+            <h2 >Personajes Favoritos</h2>
             <div class="Programas">
-                <div class="carta">
-                    <h3>Jake Sully</h3>
-                    <p>Él es un veterano de la Marina que quedó parapléjico, que después forma un vínculo con la raza Na'vi y que también es uno de los 20 conductores avatar conocidos. Es el sexto Toruk Makto y Olo'eyktan del Clan Omaticaya</p>
-        <form action="https://james-camerons-avatar.fandom.com/es/wiki/Jake_Sully">
+                <div class="carta" id="Jake sully">
+                    <h3 id="titulo-carta"  >Jake Sully</h3>
+                    <p id="contenido-carta">Él es un veterano de la Marina que quedó parapléjico, que después forma un vínculo con la raza Na'vi y que también es uno de los 20 conductores avatar conocidos. Es el sexto Toruk Makto y Olo'eyktan del Clan Omaticaya</p>
+        <form action="https://james-camerons-avatar.fandom.com/wiki/Jake_Sully">
             <button>Biografia</button>
         </form>
         <br>
                 </div>
-                <div class="carta">
-                    <h3>Neytiri</h3>
-                    <p>Es una Na'vi guerrera, princesa del clan Omaticaya, y se convierte en la pareja y Tsahik (líder) de Jake Sully, un humano que se une a su pueblo. 
+                <div class="carta" id="Neytiri">
+                    <h3 id="titulo-carta">Neytiri</h3>
+                    <p id="contenido-carta"  >Es una Na'vi guerrera, princesa del clan Omaticaya, y se convierte en la pareja y Tsahik (líder) de Jake Sully, un humano que se une a su pueblo. 
                     </p><form action="https://youtu.be/ZMDegl6X3mE?si=tBeXs2hMibk_BRTj">
                         <button>Familia</button>
                     </form>
                 </div>
              
-                <div class="carta">
-                    <h3>Dr. Grace Agustine</h3>
-                    <p> La Dr. Grace Augustine es una xenobotánica y jefa del Programa Avatar. Ella es una leyenda para el personal científico ya que escribió un libro de botánica de Pandora. Ayudó a Jake Sully en el programa, hasta que murió por una herida de bala infligida por el coronel Quaritch.
+                <div class="carta" id="dr.Grace">
+                    <h3 id="titulo-carta" >Dr. Grace Agustine</h3>
+                    <p id="contenido-carta"> La Dr. Grace Augustine es una xenobotánica y jefa del Programa Avatar. Ella es una leyenda para el personal científico ya que escribió un libro de botánica de Pandora. Ayudó a Jake Sully en el programa, hasta que murió por una herida de bala infligida por el coronel Quaritch.
                     </p><form action="https://youtu.be/czd8pbHnjpc?si=xlfKubY1DLeYrSTg">
                         <button>Otros</button>
                     </form>
@@ -100,7 +110,9 @@
             <div id="img.container"></div>
                 <div class ="texto">
                     <h1><spa class="color-acento">Avatar</spa> 2022</h1> 
-                        <p>se vienen cositas
+                    <img src="Tulkun_fondo_transparente.png"  style="position: static;">
+                        <p id="sintesis">La historia se centra en Jake Sully y Neytiri, quienes ahora tienen una familia y deben proteger su hogar en Pandora cuando una antigua amenaza regresa. Debido a esto, se ven obligados a buscar refugio con otros clanes Na'vi, explorando nuevas regiones y enfrentando nuevos peligros. <br> <br>
+                            En esta nueva región, la familia Sully debe aprender las costumbres y formas de vida del pueblo del mar, enfrentando desafíos y descubriendo nuevas conexiones con la naturaleza de Pandora. Mientras tanto, Quaritch y sus fuerzas continúan su búsqueda, lo que lleva a una nueva batalla entre los Na'vi y los humanos. La película explora temas de familia, protección del hogar, adaptación y la importancia de la conexión con la naturaleza, todo ello a través de impresionantes efectos visuales y un espectáculo cinematográfico.
                         </p>
                 </div>       
             </div>
@@ -108,12 +120,12 @@
 <br>
     <section id="Proximamente"> <section id="hero2">
         <div class="container">
-            <h2>
-             El camino del agua </h2>
+            <h2>The way of water
+        </h2>
            
         <form action="https://www.disneyplus.com/es-419/browse/entity-e6ef640e-787e-4477-aba4-9e05925ebac2">
            
-            <br><button id="CENTRO"> Ver!</button>
+            <br><button id="CENTRO"> Ver</button>
         </form>
         </div>
 
@@ -125,23 +137,81 @@
      </section>
         
     </form>
-    <section id="iframe">
+    <section id="iframe"> 
+
+    
+
         <br>
         <iframe src="https://www.youtube.com/embed/wWkPlwNimS4" height="700" width="2300">
                 
         </iframe>
+       
     </section>
 
         
     <br>
     <br>
+  <section>  
+                <section id="hero3">
+                     <h1>Avatar 3: Fire and Ash </h1>
+                        <form action="https://www.avatar.com/"
+        >
+                    <button id="ROJO"> Mirar</button></form>
+                </section>
+<div class="container"> 
+    <br>
+                
+     <div class ="texto">
+                    <h1 style="text-align: center;">Información</h1> 
+                    
+                        <p id="sintesis"> Es la tercera entrega de la saga cinematográfica Avatar. Secuela directa de Avatar: El Camino del Agua , 
+                            seguida de Avatar 4 en 2029. 
+                            La película está dirigida por James Cameron y escrita por Cameron, Rick Jaffa , Amanda Silver , Josh Friedman y Shane Salerno.
+                         Se pretende que la trama pueda sostenerse por sí sola, aunque formará parte de una metanarrativa que se extiende desde Avatar 2 a 5.
+                        <br>
+                             <br>
+                        Se dice que el título "Fuego y Ceniza" refleja la naturaleza cíclica del conflicto y cómo este conduce a más violencia, ira y odio en el futuro. La película explora temas de violencia, duelo y consecuencias. 
+                        Su objetivo es explorar temas más oscuros y complejos que sus predecesoras. Los términos "fuego" y "ceniza" reflejan esto. Según Cameron, si el fuego representa odio, 
+                        ira y violencia, la ceniza representa las consecuencias (duelo y pérdida), lo que a su vez conduce a más violencia, ira y odio (fuego). En esencia, un círculo vicioso.</p>
+                        <br>
+
+                </div>     
+    
+<img id="empire"  src="empire.jpg" 
+>
+
+ <br>
+
+<section id="iframe">
+     <iframe height="700" width="2300" src="https://www.youtube.com/embed/nb_fFj_0rq8?si=yPydoE_-UEGDyMff&amp;start=62" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</section>
    
+  </section>
+    <br>
+    <br>
+
+
+    /// EXPERIMENTO 
+
+   
+   
+    
+   
+    
+</head>
+
+
+
+        </section>
+    </section>
+
 
         <footer>
             <div class="container"> 
                 <p>Pagina de experimentación 
                     <br>
-                    correo: oriana14208@gmail.com <br> </p>
+                    Correo: oriana14208@gmail.com <br> </p>
                     <p>&copy;@TorukHouse2025</p>
             </div>
         </footer>
